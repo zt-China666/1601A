@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 14px;
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 4.5rem;
+    background: rgb(31, 34, 31);
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.header p {
+    flex: 1;
+    margin-left: .5rem;
+}
+
+.header span:first-child {
+    border: 1px solid #000;
+}
+
+.header span {
+    width: 3rem;
+    text-align: center;
+}
+
+.section {
+    flex: 1;
+    overflow: hidden;
+    background: rgb(192, 199, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .menu {
+    width: 94%;
+    background: #fff;
+    padding: 0 2rem 5rem 2rem;
+    box-sizing: border-box;
+    border-radius: .6rem;
+}
+
+.section .menu .logo {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.section .menu .logo img {
+    width: 10rem;
+    text-align: center;
+}
+
+.section .menu .logo p {
+    font-size: 1.4rem;
+}
+
+.section .menu label {
+    margin-bottom: 3rem;
+}
+
+.section .menu label p {
+    height: 3rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    line-height: 3rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.section .menu label p img {
+    width: 1.4rem;
+    margin-right: 1rem;
+}
+
+.section .menu label p input {
+    border: 0;
+    height: 1.8rem;
+}
+
+.section .menu .btn {
+    width: 100%;
+    height: 4rem;
+    background: rgb(36, 141, 36);
+    color: #fff;
+    text-align: center;
+    border: 0;
+    border-radius: .8rem;
+    margin-top: 5rem;
+}
